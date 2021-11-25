@@ -65,4 +65,4 @@ people = People()
 invoker.AddCmd(AddExpCommand(people))
 invoker.AddCmd(AddGoldCommand(people))
 
-invoker.AddCmd()
+invoker.ExecAll()
